@@ -1,4 +1,4 @@
-module protoc-gen-gorm-serializer
+module github.com/yangyang5214/protoc-gen-gorm-serializer
 
 go 1.20
 
