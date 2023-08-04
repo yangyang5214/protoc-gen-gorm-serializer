@@ -1,5 +1,11 @@
 
-If your gorm version is v1.24.3 (indirect pgx version github.com/jackc/pgx/v5), gorm model field is mapped to proto enum, will be failed, You need an explicit gen Scan & Value method.
+If your **gorm.io/driver/postgres version is v1.4.6** (pgx version is github.com/jackc/pgx/v5), gorm model field is mapped to proto enum, will be failed, You need an explicit gen Scan & Value method.
+
+
+https://github.com/go-gorm/postgres/blob/v1.4.5/go.mod -> github.com/jackc/pgx/v4 v4.17.2
+
+https://github.com/go-gorm/postgres/blob/v1.4.6/go.mod -> github.com/jackc/pgx/v5 v5.2.0
+
 
 ---
 
