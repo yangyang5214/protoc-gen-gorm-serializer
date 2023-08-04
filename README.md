@@ -1,4 +1,7 @@
 
+If your gorm version is v1.24.3 (indirect pgx version github.com/jackc/pgx/v5), gorm model field is mapped to proto enum, will be failed, You need an explicit gen Scan & Value method.
+
+---
 
 > protoc-gen-gorm-serializer
 
