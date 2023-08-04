@@ -4,5 +4,5 @@ func (x *{{.EnumName}}) Scan(v any) (err error) {
 }
 
 func (x {{.EnumName}}) Value() (v driver.Value, err error) {
- return int32(x), nil
+ return int64(x), nil
 }
